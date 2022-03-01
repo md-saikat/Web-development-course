@@ -1,7 +1,13 @@
 echo "# Web-development-course" >> README.md
 git init 
 git add .
-git commit -m "my travelling blog - 1"
+git commit -m "msg"
 git branch -M main
 git remote add origin https://github.com/md-saikat/Web-development-course.git
+git push -u origin main
+
+
+For updating the code after 1st time:
+git add .
+git commit -m "msg"
 git push -u origin main
