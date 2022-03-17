@@ -12,8 +12,8 @@ h1{
     color: orangered;
 }
 
-section{
-    display: flex;
+.fexible-container{
+    display: flex; /*Section er moddher sobkichu k pashapashi niye ase*/
     margin-bottom: 100px;;
 }
 
