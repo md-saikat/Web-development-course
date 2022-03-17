@@ -8,6 +8,14 @@ h1{
     font-size: 50px;
 }
 
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 30px;
+}
+
 .orangered{
     color: orangered;
 }
@@ -45,4 +53,27 @@ h1{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.QAI-boxes{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 10px;
+    border-left: 8px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+.QAI-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+footer{
+    text-align: center;
+    padding-bottom: 1%;
 }
